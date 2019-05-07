@@ -1,0 +1,57 @@
+*{
+	margin: 0 0;
+	padding: 0 0;
+}
+.homepage{
+	position: relative;
+	margin: 0 auto;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+}
+.homepage .packing{
+	width: 5760px;
+	height: 1080px;
+	animation: a 10s linear alternate infinite;
+}
+.homepage .packing img{
+	width: 1920px;
+	height: 1080px;
+	float: left;
+}
+@-webkit-keyframes a{
+	0%,20%{
+		margin-left:0px;
+		}
+	25%,60%{
+		margin-left:-1920px;
+		}
+	65%,100%{
+		margin-left:-3840px;
+		}
+}
+.headportrait{
+	position: absolute;
+	top: 380px;
+    left: 895px;
+	width: 130px;
+	height: 130px;
+}
+.headportrait img{
+	border-radius: 50%;
+	width: 130px;
+	height: 130px;
+	transition: all 0.5s;
+}
+.headportrait img:hover{                                     
+	transform: rotate(360deg);
+}
+.headportrait a{
+	text-decoration: none;
+}
+.headportrait p{
+	font-family: "微软雅黑";
+	font-size: 50px;
+	color: #fff;
+}
+
