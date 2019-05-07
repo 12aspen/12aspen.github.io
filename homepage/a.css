@@ -102,9 +102,6 @@
     float: left;
     transition: 1.5s;
 }
-.banner .banner-a img:hover{
-	transform: rotateY(180deg);
-}
 .banner-d{
 	position: absolute;
 	right: 400px;
